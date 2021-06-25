@@ -57,7 +57,9 @@ mysqli_close($conn);
                 <div class="col-md-3 mb-5">
                     <div class="card-deck">
                         <div class="card">
+                        <a href="book.php?id=<?php echo $book['id']; ?>">
                             <img class="card-img-top" src="/img/book.jpeg" alt="Card image cap">
+                        </a>
                             <div class="card-body">
                                 <h5 class="card-title"><strong><?php echo $book['title'] ?></strong>
                                     <h5 class="text-muted"> - Written by: <?php echo $book['author'] ?></h5>
